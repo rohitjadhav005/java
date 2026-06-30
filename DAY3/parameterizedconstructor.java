@@ -9,7 +9,7 @@ class Student{
 public class parameterizedconstructor {
     public static void main(String[] args) {
         Student s1 = new Student("Rohit",21);
-        Student s2 = new Student("Neha",20);
+        Student s2 = new Student("Neha",20);                    
         Student s3 = new Student("Himendra",19);
         Student s4 = new Student("Krishna",18);
         Student s5 = new Student("Babu",22);
@@ -20,8 +20,6 @@ public class parameterizedconstructor {
         System.out.println("Hello "+ s4.name + " ohh you are"+ " " + s4.age+" year old");
         System.out.println("Hello "+ s5.name + " ohh you are"+ " " + s5.age+" year old");
         System.out.println("Hello "+ s6.name + " ohh you are"+ " " + s6.age+" year old");
-        
-
     }
     
 }
