@@ -10,11 +10,11 @@ public class array3 {
         System.out.println("Enter Number to Search: ");
         int num = sc.nextInt(); 
         boolean found = false;
-        for (int i = 0; i < arr.length; i++){
+         for (int i = 0; i < arr.length; i++){
             if (num == arr[i]){
                 System.out.println("Element found at Index: " + i);
                 found = true;
-                break;
+                 break;
             }
         }
         if (!found){
