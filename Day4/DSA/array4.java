@@ -19,6 +19,7 @@ public class array4 {
         }
         System.out.println("The maximum number from your array is: "+max);
         System.out.println("The minimum number from your array is: "+min);
+        sc.close();
      }
 }
 
