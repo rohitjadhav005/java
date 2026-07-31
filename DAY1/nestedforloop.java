@@ -9,6 +9,5 @@ public class nestedforloop {
                 }               
             System.out.println();    
         }
-           
     }
 }
