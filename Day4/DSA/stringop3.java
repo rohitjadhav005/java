@@ -1,13 +1,10 @@
 
 public class stringop3 {
-
     public static void main(String[] args) {
 
         String name = "MADAM";
-
         int start = 0;
         int end = name.length() - 1;
-
         boolean isPalindrome = true;
 
         while (start < end) {
